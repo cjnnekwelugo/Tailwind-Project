@@ -1,3 +1,5 @@
+<!--CREATED BY NNEKWELUGO CHIJIOKE-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus - Build Your Digital Future</title>
 
+     <!--CSS OUTPUT LINK AND FONT AWESOME LINK-->
     <link rel="stylesheet" href="css/output.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<header class="h-18 w-full border-white/90 sticky top-0 z-50  bg-blue-950 shadow-xl">
-       <!-- NAVBAR -->
+
+
+   <!--HEADER AND NAVIGATION SECTION-->
+<header class="h-18 w-full border-white/95 sticky top-0 z-50  bg-[#09101c]  shadow-xl">
  
     <nav class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-4">
 
@@ -25,17 +30,32 @@
         <li><a href="#about" class="hover:text-blue-400">About</a></li>
         <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
       </ul>
-
-      <button class="bg-[#3b82f6] px-5 py-2 rounded-md">
+      
+      <button class=" bg-[#3b82f6] px-5 py-2 rounded-md text-white font-bold hidden md:block hover:bg-blue-400">
         Get Started
       </button>
+      <!--mobile-->
+            <div class=" lg:hidden text-white">
+                <button>
+                    <i class="fa-solid fa-bars"></i>
+                </button>
 
+                <ul class="absolute top-full left-0 bg-white/20 border-r border-t/10 w-full h-[calc(100vh-4.5rem)] hidden flex-col gap-6 justify-center items-center  ">
+                <li><a href="#" class="text-black/65 hover:to-blue-700">Home</a></li>
+                <li><a href="#" class="text-black/65 hover:to-blue-700">About</a></li>
+                <li><a href="#" class="text-black/65 hover:to-blue-700">Services</a></li>
+                <li><a href="#" class="text-black/65 hover:to-blue-700">Contact</a></li> 
+                </ul>
+                
+            </div>
+            
     </nav>
-    </header>
+</header>
 
-<body>
-    <section id="home" class="bg-blue-950 py-16 ">
-        <div class="w-9/10 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
+
+      <!--HOME SECTION-->
+       <section id="home" class="bg-[#09101c] ">
+        <div class="w-9/10 py-16 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
             <div class=" flex flex-col gap-8">
                 <h1 class="text-amber-50 font-bold text-5xl lg:text-7xl 2xl:text-7xl w-9/10 max-w-7xl">
                     Build Your <p class="text-blue-500">Digital</p> Future
@@ -44,12 +64,12 @@
                     Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape.
                 </p>
                 <div class="gap-1 ">
-                <button class="bg-blue-500 px-5 py-2 rounded-md text-white">Start Your Journey</button>
-                <a href="#" class="bg-black/70 shadow-white text-white px-5 py-2 rounded-md">Learn More</a>
+                <button class="bg-blue-500 px-5 py-2 rounded-md text-white hover:bg-blue-400 font-bold">Start Your Journey</button>
+                <a href="#" class="border shadow-white text-white px-5 py-2 rounded-md hover:bg-blue-400 font-bold">Learn More</a>
             </div>
             </div>
             
-            <div class="w-full md:w-1/2 max-h-80 flex">
+            <div class="w-full md:w-1/2 max-h-80 flex ">
                 <img src="images/hero-image.png" 
                 class="rounded-2xl"
                 alt="hero image">
@@ -57,20 +77,22 @@
         </div>
     </section>
 
-    <section id="Services" class="py-16 w-full bg-blue-900">
+
+    <!--SERVICES SECTION-->
+    <section id="services"  class="py-16 w-full bg-[#152032]">
         <div class="w-9/10 max-w-7xl mx-auto flex flex-col gap-8">
             <div class="flex flex-col gap-4 items-center">
                 <h2 class="font-bold text-2xl lg:text-3xl text-white">Our Services</h2>
                 <p class="text-white">We provide comprehensive solutions to help your business thrive in the digital age.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-            <div class="flex flex-col gap-4 border py-8 px-4 rounded-2xl border-white/5 shadow-xl bg-blue-950 ">
+            <div class="flex flex-col gap-4 border py-8 px-4 rounded-2xl border-white/5 shadow-xl bg-[#152032]">
                 <p class="self-start w-10 h-10 flex justify-center items-center bg-blue-400 rounded-lg text-white"><i class="fa-solid fa-code "></i></p>
                 <h3 class="font-bold text-white">Web Development</h3>
                 <p class="text-sm text-white">custom websites and web applications built with mordern technologies for optional performance.
                 </p>    
                 </div>
-                <div class="flex flex-col gap-4 border py-8 px-4 rounded-2xl border-white/5 shadow-xl bg-blue-950">
+                <div class="flex flex-col gap-4 border py-8 px-4 rounded-2xl border-white/5 shadow-xl bg-[#152032]">
                     <p class="bg-green-400 self-start w-10 h-10 flex justify-center items-center rounded-xl text-white"><i class="fa-solid fa-mobile-screen-button"></i></p>
 
                     <h3 class="font-bold text-white">Mobile Apps</h3>
@@ -78,7 +100,7 @@
                         Native and cross platform mobile applications that deliver exceptional user experience.
                     </p>
                 </div>
-                <div class="flex flex-col gap-4 border py-8 px-4 rounded-xl border-white/5 shadow-xl bg-blue-950">
+                <div class="flex flex-col gap-4 border py-8 px-4 rounded-xl border-white/5 shadow-xl bg-[#152032]">
                     <p class="self-start w-10 h-10 flex justify-center items-center rounded-xl text-white bg-purple-800"><i class="fa-solid fa-chart-line"></i></p>
                     <h3 class="font-bold text-white">Digital Marketing</h3>
                     <p class="text-sm text-white">
@@ -89,7 +111,9 @@
         </div>
     </section>
 
-     <section  id="about"   class="bg-blue-950 w-full py-16">
+
+    <!--ABOUT SECTION-->
+     <section  id="about" class="bg-[#09101c] w-full py-16">
     <div class="w-9/10 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center ">
 
         <div class="w-full md:w-1/2 max-h-80 flex">
@@ -101,7 +125,7 @@
             <p class="lg:text-lg 2xl:text-xl text-white">
                 We are a forward-thing technology company dedicated to helping businesses navigate the digital transformation Journey.with years experience and a passion for innovation,we deliver solutions that matters.
             </p>
-            <div class="flex gap-10  ">
+            <div class="flex gap-20 ">
                <p class="flex flex-col gap-1 text-center ">
                 <span class="font-bold text-blue-800 text-3xl">150+</span>
                 <span class="text-xs text-white">Projects Completed</span>
@@ -116,6 +140,8 @@
     </div>
      </section>
 
+     
+    <!--CONTACT SECTION--> 
      <section id="contact" class="bg-[#152032] py-24">
 
     <div class="max-w-5xl mx-auto px-4 md:px-8">
@@ -125,27 +151,37 @@
         <p class="text-gray-400 mt-4">Ready to Start your project? Let`s discuss how we can help you achieve your goals.</p>
       </div>
 
-      <div class="bg-[#0f172a] rounded-xl p-10 mt-16 grid md:grid-cols-2 gap-10">
+      <div class="bg-[#16202b] rounded-xl p-10 mt-16 grid md:grid-cols-2 gap-10">
 
         <div class="text-gray-300 space-y-6">
-          <div class="flex gap-2"><p><i class="fa-solid fa-envelope"></i></p><p>+1 (555) 123-4567</p></div>
-          <div class="flex gap-2"><p><i class="fa-solid fa-phone"></i></p><p>hello@nexus.com</p></div>
+
+          <div class="flex gap-2">
+            <p class="text-blue-400"><i class="fa-solid fa-envelope"></i></p>
+            <p>+1 (555) 123-4567</p>
+          </div>
+
+          <div class="flex gap-2 ">
+            <p class="text-blue-400"><i class="fa-solid fa-phone"></i></p>
+            <p>hello@nexus.com</p>
+          </div>
           
-          <div class="flex gap-2"><p><i class="fa-solid fa-location-dot"></i></p><p>123 Business Ave</p></div>
+          <div class="flex gap-2">
+            <p class="text-blue-400"><i class="fa-solid fa-location-dot"></i></p>
+            <p>123 Business Ave</p></div>
         </div>
 
         <form class="space-y-5">
 
           <input type="text" placeholder="Name"
-            class="w-full bg-gray-800 p-4 rounded-md outline-none" />
+            class="w-full bg-gray-800 p-4 rounded-md outline-none text-white" />
 
           <input type="email" placeholder="Email"
-            class="w-full bg-gray-800 p-4 rounded-md outline-none" />
+            class="w-full bg-gray-800 p-4 rounded-md outline-none text-white" />
 
           <textarea rows="5" placeholder="Message"
-            class="w-full bg-gray-800 p-4 rounded-md outline-none"></textarea>
+            class="w-full bg-gray-800 p-4 rounded-md outline-none text-white"></textarea>
 
-          <button class="w-full bg-[#3b82f6] py-4 rounded-md">
+          <button class="w-full bg-[#3b82f6] py-4 rounded-md text-white font-bold hover:bg-blue-400 ">
             Send Message
           </button>
 
@@ -157,25 +193,25 @@
 
   </section>
 
-
-   <footer class="bg-blue-950 border-t border-white/5 py-6">
+    <!--FOOTER-->
+   <footer class=" bg-gray-800 border-t border-white/5 py-6">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
  
         <!-- Logo -->
         <div class="flex items-center gap-2.5">
-        <div class="bg-[#3b82f6] p-2 rounded-md text-white"><i class="fa-solid fa-bolt"></i></div>
-        <p class="font-bold text-xl text-white">Nexus</p>
+        <div class="bg-[#245cb0] p-2 rounded-md text-white"><i class="fa-solid fa-bolt"></i></div>
+        <p class="font-bold text-xl text-white ">Nexus</p>
       </div>
 
  
-        <p class="text-gray-500 text-xs">© 2024 Nexus. All rights reserved.</p>
+        <p class="text-gray-500 text-xs">© 2024 Nexus. All rights reserved. Designed by CJ</p>
  
         <!-- Social icons -->
         <div class="flex items-center gap-4">
           <!-- Twitter / X -->
           <a href="#" class="text-gray-500 hover:text-white transition-colors" aria-label="Twitter">
-            <p><i class="fa-brands fa-x-twitter"></i></p>
+            <p><i class="fa-brands fa-twitter"></i></p>
           </a>
           <!-- LinkedIn -->
           <a href="#" class="text-gray-500 hover:text-white transition-colors" aria-label="LinkedIn">
